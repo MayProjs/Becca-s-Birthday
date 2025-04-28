@@ -1,3 +1,10 @@
+html, body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+
 @font-face {
   font-family: 'RetroDolly';
   src: url('./assets/Retro_Dolly.ttf') format('truetype');
