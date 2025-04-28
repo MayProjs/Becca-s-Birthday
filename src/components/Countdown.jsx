@@ -7,7 +7,7 @@ const Countdown = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    const targetDate = new Date('2025-04-29T00:00:00+05:30');
+    const targetDate = new Date('2025-04-28T00:00:00+05:30');
 
     const updateCountdown = () => {
       const now = new Date();
