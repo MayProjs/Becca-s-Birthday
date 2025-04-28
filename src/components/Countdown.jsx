@@ -7,7 +7,7 @@ const Countdown = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    const targetDate = new Date('2025-04-28T00:00:00+05:30');
+    const targetDate = new Date('2025-04-29T00:00:00+05:30');
 
     const updateCountdown = () => {
       const now = new Date();
@@ -55,7 +55,7 @@ const Countdown = () => {
             <br />
             <span className="countdown-text-1">Time Left <br/> for Becca's birthday  </span>
             <br />
-            {formatTimeUnit(timeLeft.days)}d : {formatTimeUnit(timeLeft.hours)}h : {formatTimeUnit(timeLeft.minutes)}m : {formatTimeUnit(timeLeft.seconds)}s
+            {formatTimeUnit(timeLeft.hours)}h : {formatTimeUnit(timeLeft.minutes)}m : {formatTimeUnit(timeLeft.seconds)}s
           </h1>
         ) : (
           <h1>Loading...</h1>
